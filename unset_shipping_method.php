@@ -1,5 +1,3 @@
-<?php
-
 add_filter('woocommerce_package_rates', 'deactivate_isolated_shipping_method', 10, 2);
   function deactivate_isolated_shipping_method($available_shipping_methods)
   {
