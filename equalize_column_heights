@@ -1,0 +1,27 @@
+
+
+<?php if ( $price_html = $product->get_price_html() ) : ?>
+  <div class=" uk-block uk-padding-top-remove uk-padding-bottom-remove uk-width 1-1 uk-text-center bottomprice"><?php echo $price_html; ?></div>
+<?php endif; ?>
+
+
+@media(min-width: 480px) {
+  .bottombutton {
+    bottom: 0px;
+    position: absolute;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  .bottomprice {
+    /*bottom: 70px;*/
+    position: absolute;
+    transform: translateX(-5%);
+    white-space: nowrap;
+  }
+} /* end min-width: 480px*/
+
+  #mobile-opt-hook {
+    padding-bottom: 95px;
+    margin-bottom: 25px;
+  }

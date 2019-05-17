@@ -5,3 +5,13 @@ Snippets for solving simple issues in Woocommerce, wordpress, and other settings
 unset_shipping_method -
 	
 	Add this function to your functions.php file in wordpress to unset a shipping method when other methods become available. Useful for setting up promo shipping for single/sample items. 
+
+
+toggle_radio_options - 
+	
+	This code will allow you to open up different options based on which radio button a user selects. 
+
+
+equalize_column_heights -
+
+	this code equalizes the height of various items in a column. Add the styles to your styles.css file, and replace your woocommerce price.php file with the rest of the code. This will require tweaking for your site. 
